@@ -1,0 +1,8 @@
+<header class="header">
+    <h1>Catálogo de productos</h1>
+</header>
+<section class="grid">
+    @for(p of products(); track p.id){
+        <app-producto-card [product]="p"></app-producto-card>
+    }
+</section>

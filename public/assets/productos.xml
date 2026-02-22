@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Mouse Inalámbrico Ergonómico</name>
+        <price>520.00</price>
+        <imageUrl>assets/mouse.jpg</imageUrl>
+        <category>Periféricos</category>
+        <description>Mouse inalámbrico con diseño ergonómico, sensor óptico de alta precisión y batería recargable de larga duración ideal para trabajo y gaming ligero.</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>2</id>
+        <name>Bocina Bluetooth Portátil</name>
+        <price>1350.75</price>
+        <imageUrl>assets/bocina.webp</imageUrl>
+        <category>Audio</category>
+        <description>Bocina portátil con sonido estéreo potente, resistencia al agua IPX7 y hasta 12 horas de reproducción continua mediante conexión Bluetooth 5.2.</description>
+        <inStock>true</inStock>
+    </product>
+
+    <product>
+        <id>3</id>
+        <name>Laptop Ultraligera 14"</name>
+        <price>15899.99</price>
+        <imageUrl>assets/laptop.jpg</imageUrl>
+        <category>Computadoras</category>
+        <description>Laptop ultradelgada con procesador de última generación, SSD de alta velocidad y pantalla Full HD ideal para estudiantes y profesionales móviles.</description>
+        <inStock>true</inStock>
+    </product>
+
+</products>

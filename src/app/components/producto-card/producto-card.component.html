@@ -1,0 +1,23 @@
+<article class="product-card">
+    <div class="image-header">
+        <img class="card-img" [src]="product.imageUrl" [alt]="product.name" />
+        <span class="category-tag">{{product.category}}</span>
+    </div>
+    
+    <div class="card-body">
+        <header class="info-header">
+            <h3 class="card-title">{{product.name}}</h3>
+            <span class="card-price">{{ product.price | currency }}</span>
+        </header>
+        
+        <div class="description-box">
+            <p class="card-desc">{{product.description}}</p>
+        </div>
+        
+        <footer class="card-footer">
+            <p class="stock-status" [class.out]="!product.inStock">
+                <span class="status-dot"></span> @if(product.inStock){ Disponible para envío } @else { Temporalmente agotado }
+            </p>
+        </footer>
+    </div>
+</article>
