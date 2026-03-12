@@ -161,6 +161,18 @@
     color: var(--success-color);
 }
 
+.boton_carrito{
+
+    border-radius: 5px;
+    color: #718cb3;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.boton_carrito:hover{
+    background-color: rgb(185, 202, 203);
+}
+
 .status-dot {
     width: 9px;
     height: 9px;

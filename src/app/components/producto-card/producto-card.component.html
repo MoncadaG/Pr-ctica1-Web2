@@ -14,6 +14,13 @@
             <p class="card-desc">{{product.description}}</p>
         </div>
         
+        <div class="carrito">
+            <button class="boton_carrito" (click)="agregarCarrito()">
+                Agregar al carrito
+            </button>
+        </div>
+    
+
         <footer class="card-footer">
             <p class="stock-status" [class.out]="!product.inStock">
                 <span class="status-dot"></span> @if(product.inStock){ Disponible para envío } @else { Temporalmente agotado }
